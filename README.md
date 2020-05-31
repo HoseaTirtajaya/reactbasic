@@ -1,7 +1,7 @@
 # Personal React Training
 
 This training was supported by [Scrimba.com](https://scrimba.com/course/glearnreact/enrolled)  
-Current steps(10/58)
+Current steps(21/58)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
