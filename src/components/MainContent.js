@@ -1,10 +1,8 @@
 import React from "react";
-import "./Navbar.css";
 
-function Navbar() {
+function MainContent() {
   return (
     <div>
-      <h1>Hosea Tirtajaya</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
         eleifend urna, id malesuada ipsum. Quisque accumsan dolor nisl, vel
@@ -24,4 +22,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default MainContent;
