@@ -1,4 +1,5 @@
 import React from "react";
+import ContactCards from "./ContactCards";
 
 function MainContent() {
   // Menghitung siang atau malam atau pagi
@@ -30,13 +31,59 @@ function MainContent() {
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ut
         eleifend urna, id malesuada ipsum. Quisque accumsan dolor nisl, vel
-        mollis lectus tristique sed. Ut interdum ultricies ullamcorper. Fusce id
-        vulputate ante. Maecenas sapien ex, pellentesque in pretium non, semper
-        ac velit. Nam interdum risus vel mi rutrum semper. In hac habitasse
-        platea dictumst. Aenean facilisis semper nunc, at eleifend sem
-        consectetur nec. Vivamus eget ante sed tellus cursus euismod non sit
-        amet risus. Integer nec dui non quam egestas consequat.
+        mollis lectus tristique sed. Ut interdum ultricies ullamcorper.
       </p>
+      <div className="contact-cards">
+        {/* There are 2 ways to passing props data. Number 1 is commented. */}
+        <ContactCards
+          // name="Mr. Whiskerson"
+          // imgUrl="http://placekitten.com/300/200"
+          // phone="(212) 555-1234"
+          // email="mr.whiskaz@catnap.meow"
+          dtcontact={{
+            name: "Mr. Whiskerson",
+            imgUrl: "http://placekitten.com/300/200",
+            phone: "(212) 555-1234",
+            email: "mr.whiskaz@catnap.meow",
+          }}
+        />
+        <ContactCards
+          // name="Fluffykins"
+          // imgUrl="http://placekitten.com/400/200"
+          // phone="(212) 555-2345"
+          // email="fluff@me.com"
+          dtcontact={{
+            name: "Fluffykins",
+            imgUrl: "http://placekitten.com/400/200",
+            phone: "(212) 555-2345",
+            email: "fluff@me.com",
+          }}
+        />
+        <ContactCards
+          // name="Destroyer"
+          // imgUrl="http://placekitten.com/400/300"
+          // phone="(212) 555-3456"
+          // email="ofworlds@yahoo.com"
+          dtcontact={{
+            name: "Destroyer",
+            imgUrl: "http://placekitten.com/400/300",
+            phone: "(212) 555-3456",
+            email: "ofworlds@yahoo.com",
+          }}
+        />
+        <ContactCards
+          // name="Felix"
+          // imgUrl="http://placekitten.com/200/100"
+          // phone="(212) 555-4567"
+          // email="thecat@hotmail.com"
+          dtcontact={{
+            name: "Felix",
+            imgUrl: "http://placekitten.com/200/100",
+            phone: "(212) 555-4567",
+            email: "thecat@hotmail.com",
+          }}
+        />
+      </div>
       <ol>
         <li>Japan</li>
         <li>United States</li>
